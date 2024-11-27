@@ -1,0 +1,66 @@
+.taskItem {
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  
+}
+
+.taskText {
+  color: #9E78CF; /* Cor do texto */
+  flex: 1;
+  padding-right: 10px;
+}
+
+.icons {
+  display: flex;
+  gap: 10px;
+  align-items: center; /* Garante que os ícones fiquem alinhados verticalmente */
+}
+
+
+.checkIcon {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: fill 0.3s ease;
+}
+
+.checkIcon:hover {
+  fill: #3E1671; /* Cor ao passar o mouse */
+}
+
+/* Adicionar uma classe para as tarefas concluídas */
+.checkIcon.completed {
+  fill: #78CFB0; /* Cor do ícone quando a tarefa for concluída */
+}
+
+.deleteIcon {
+  width: 16.5px;
+  height: 17.66px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: fill 0.3s ease;
+}
+
+.deleteIcon:hover {
+  fill: #FF6347; /* Cor ao passar o mouse */
+}
+
+.ellipsisIcon {
+  width: 16.5px;
+  height: 17.66px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: fill 0.3s ease;
+}

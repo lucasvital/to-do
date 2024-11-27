@@ -1,0 +1,32 @@
+/* src/styles/App.module.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* Estilo global do body */
+body {
+  background-color: #0D0714; /* Cor roxa para o fundo de toda a página */
+  display: flex;
+  justify-content: center; /* Centraliza o conteúdo na horizontal */
+  align-items: center; /* Centraliza o conteúdo na vertical */
+  height: 100vh; /* Faz o body ocupar a altura total da tela */
+  margin: 0; /* Remove margens padrões do body */
+  font-family: Poppins, sans-serif; /* Define uma fonte para todo o site */
+  font-weight: 200;
+  color: #9E78CF; /* Cor do texto em branco */
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+/* Container que envolve todo o conteúdo */
+.container {
+  width: 100%; /* A largura ocupa toda a tela */
+  max-width: 1000px; /* Largura máxima para o conteúdo */
+  padding: 20px;
+  background-color: #0D0714; /* Mesma cor de fundo do body */
+  border-radius: 12px; /* Bordas arredondadas */
+  min-height: 80%; /* Garante que o conteúdo tenha uma altura mínima */
+  display: flex;
+  flex-direction: column; /* Organiza os itens de forma vertical */
+  justify-content: center; /* Centraliza os itens dentro do container */
+}

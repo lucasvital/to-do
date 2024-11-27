@@ -1,0 +1,33 @@
+/* Global Styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif; /* Fonte Poppins aplicada */
+
+}
+
+html, body {
+  height: 100%; /* Faz com que o body ocupe toda a altura da janela */
+  display: flex;
+  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+  align-items: center; /* Centraliza o conteúdo verticalmente */
+  background-color: #0D0714; /* Cor roxa para o fundo da página */
+  font-family: 'Poppins', sans-serif; /* Fonte Poppins aplicada */
+}
+
+.container {
+  width: 80%; /* Definir a largura do conteúdo */
+  max-width: 1000px; /* Limitar a largura máxima */
+  padding: 20px;
+  background-color: #1a1a1d; /* Cor de fundo mais escura para o conteúdo */
+  border-radius: 12px; /* Bordas arredondadas */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra ao redor */
+  min-height: 80%; /* Garante que o conteúdo tenha uma altura mínima */
+  display: flex;
+  flex-direction: column; /* Organiza o conteúdo de forma vertical */
+  justify-content: center; /* Centraliza os itens dentro do container */
+}

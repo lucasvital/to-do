@@ -1,0 +1,23 @@
+.tasks-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.completed-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Espaço maior entre tarefas completadas */
+}
+
+.task-header {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.completed-header {
+  color: #78CFB0;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
